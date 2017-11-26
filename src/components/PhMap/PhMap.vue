@@ -1,5 +1,5 @@
 <template src='./PhMap.html'></template>
-<style src='./PhMap.css'></style>
+<style src='./PhMap.css' scoped></style>
 
 <script>
 import Vue2Leaflet from 'vue2-leaflet'
@@ -13,7 +13,7 @@ export default {
   },
   data: () => ({
     zoom: 13,
-    center: [47.413220, -1.219482],
+    center: [40.4168, 3.7038],
     url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   })

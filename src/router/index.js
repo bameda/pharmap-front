@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import PhMap from '@/components/PhMap/PhMap'
+
+import PhHome from '@/pages/PhHome/PhHome'
 
 Vue.use(Router)
 
@@ -8,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Map',
-      component: PhMap
+      name: 'Home',
+      component: PhHome
     }
   ]
 })
